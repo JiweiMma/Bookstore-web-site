@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script type="text/javascript" src='../js/index.js'></script>
+    <link rel="stylesheet" type="text/css" href="../css/insert&update.css">
+</head>
+
+<body>
+    <div class="layout">
+        <div class="left-layout">
+            <legend>
+                <h1 class="title" align="center">修改</h1>
+            </legend>
+            <center>
+                <form action="">
+                    <input type="text" placeholder=" 书籍编号"><label class="xinghao">*</label><br><br>
+                    <input type="text" placeholder=" 书籍名称"><label class="xinghao">*</label><br><br>
+                    <textarea rows="20" placeholder="书籍简介"></textarea><br><br>
+                    <button type="submit" onclick="update();">提交</button><br>
+                    <button type="reset">重置</button>
+                </form>
+            </center>
+        </div>
+        <div class="right-layout">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="category.html">分类介绍</a></li>
+                <li><a href="book-list.html">书单</a></li>
+                <li><a href="register.html">注册</a></li>
+                <li><a href="login.html">登录</a></li>
+                <li id="time"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

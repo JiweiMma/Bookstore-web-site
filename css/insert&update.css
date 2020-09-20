@@ -1,0 +1,33 @@
+.title {
+        color: #3B69AE;
+    }
+    .xinghao {
+    color: #FF0000;
+}
+    input[type=text]{
+        height: 35px;
+        width: 300px;
+    }
+
+    form {
+        border: 3px solid #caaf89;
+        padding: 35px;
+        width: 350px;
+        margin: 20px auto;
+    }
+    textarea{
+        width: 300px;
+    }
+    button {
+        height: 35px;
+        width: 300px;
+        border: 2px solid #fff;
+        background-color: #fff;
+        color: #4057BD;
+        font-weight: 800;
+        letter-spacing: 20px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        line-height: 35px;
+    }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        padding: 50px 30px;
+        background-image: url(../img/login-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .title {
+        color: #fff;
+    }
+    .xinghao {
+    color: #FF0000;
+}
+
+    input {
+        height: 35px;
+        width: 300px;
+        /*border: 2px solid #fff;*/
+        /*padding: 2px 4px;*/
+    }
+
+    form {
+    	border: 3px solid #fff;
+    	padding: 35px;
+    	width: 350px;
+        margin: 20px auto;
+    }
+    .button {
+        height: 35px;
+        width: 300px;
+        border: 2px solid #fff;
+        background-color: #fff;
+        color: #4057BD;
+        font-weight: 800;
+        letter-spacing: 20px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        line-height: 35px;
+    }
+    </style>
+    <script type="text/javascript" src="../js/index.js"></script>
+</head>
+
+<body>
+    <legend>
+        <h1 class="title" align="center">登录</h1>
+    </legend>
+    <center>
+        <form action="">
+            <input id="username" type="text" placeholder=" USERNAME" ><label class="xinghao">*</label><br><br>
+            <input id="password" type="text" placeholder=" PASSWORD"><label class="xinghao">*</label><br><br>
+            <a class="button" href="javascript:void();" onclick="login();">登录</a>
+        </form>
+    </center>
+</body>
+
+</html>
